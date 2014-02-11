@@ -18,5 +18,6 @@ install:
   - export PATH=$PATH:$HOME/gopath/bin
   - go get -v github.com/cloudfoundry/gosteno
   - go get -v github.com/howeyc/fsnotify
+  - bundle install --without development
 
 script: bin/test
