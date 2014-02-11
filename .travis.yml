@@ -1,5 +1,5 @@
 language: ruby
-
+go: 1.1
 rvm:
   - 1.9.3-p484
 
